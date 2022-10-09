@@ -14,12 +14,9 @@
 ## UD01: Introducción a las aplicaciones Web
 
 ### Contenido
-[Historia de Internet 1](UD01/UD01_1_Historia_de_Internet_1.webm)
-
-[Historia de Internet 2](UD01/UD01_2_Historia_de_Internet_2.webm)
-
-[Historia de la web](UD01/UD01_3_Historia_de_la_web.webm)
-
+  - [Historia de Internet 1](UD01/UD01_1_Historia_de_Internet_1.webm)
+  - [Historia de Internet 2](UD01/UD01_2_Historia_de_Internet_2.webm)
+  - [Historia de la web](UD01/UD01_3_Historia_de_la_web.webm)
   - [UD01.pdf](UD01/UD01.pdf)
 
 ### Actividades
