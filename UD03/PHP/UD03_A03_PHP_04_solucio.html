@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<!-- El present arxiu HTML conté errors, corregix i comenta (com més prop possible de l'error millor) tots aquells que trobes -->
+<head>
+    <meta charset="utf-8" />
+    <title>Formulari Curriculum</title>
+    <!-- Falta el href al nom de l'arxiu -->
+    <link rel="stylesheet" type="text/CSS" href="UD03_A03_PHP_04_solucio.css" />
+</head>
+
+<body>
+    <!-- La /b ha d'apareixer abans que la /p-->
+    <p><b>Introdueix les teues dades per a generar un Curriculum</b></p>
+    <!-- Indica el mètode correcte get/post segons el que pots observar al php -->
+    <form action="UD03_A03_PHP_04_solucio.php" method="post">
+        <!-- enllaça cada etiqueta amb el seu camp corresponent i indica el type correcte segons les dades-->
+        <p>
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom">
+        </p>
+        <p>
+            <label for="cognoms">Cognoms:</label>
+            <input type="text" name="cognoms">
+        </p>
+        <p>
+            <label for="adreca">Adreça:</label>
+            <input type="text" name="adreca">
+        </p>
+        <p>
+            <label for="email">e-correu:</label>
+            <input type="email" name="email">
+        </p>
+        <p>
+            <label for="naixement">Data de naixement:</label>
+            <input type="date" name="naixement">
+        </p>
+        <input type="submit">
+    <!-- Falta el tancament del form -->
+    </form>
+</body>
+<!-- Falta el tancament del html -->
+</html>

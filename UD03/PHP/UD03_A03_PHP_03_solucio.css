@@ -1,0 +1,22 @@
+body {
+    background-color: royalblue;
+    font-size: 26px;
+}
+
+table,
+td {
+    border: 1px;
+    border-style: dotted;
+}
+
+#nom {
+    color: coral;
+}
+
+#cognoms {
+    color: lime;
+}
+
+#telefon {
+    color: red;
+}

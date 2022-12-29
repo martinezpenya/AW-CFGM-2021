@@ -1,0 +1,59 @@
+/* Selector per a tot el document */
+body {
+    background-color: rgb(216, 202, 171);
+    /* Afig que la grandària de la lletra siga 20px */
+    font-size: 20px;
+}
+
+table {
+    background-color: rgb(226, 143, 19);
+    width: 100%;
+    /*Afig que l'estil de la vora siga a puntets*/
+    border-style: dotted;
+}
+
+
+/* Selector per a la segona columna de la taula */
+td+td {
+    font-weight: bolder;
+}
+
+
+/* Falta el selector */
+.nom {
+    color: rgb(131, 36, 1);
+    font-weight: bolder;
+}
+
+
+/* Falta el selector */
+.any {
+    color: rgb(3, 73, 3);
+    font-style: italic;
+}
+
+
+/* Falta el selector */
+.idioma {
+    color: rgb(100, 6, 95);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Falta el selector */
+h1 {
+    color: rgb(5, 5, 114);
+    text-align: center;
+}
+
+
+/* Falta el selector */
+h2 {
+    color: rgb(5, 5, 114);
+}
+
+
+/* Falta el selector */
+#foto {
+    text-align: right;
+}

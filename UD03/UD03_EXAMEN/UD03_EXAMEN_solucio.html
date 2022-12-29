@@ -1,0 +1,78 @@
+<!-- Falta el DOCTYPE -->
+<!DOCTYPE html>
+<html>
+<!-- El present arxiu HTML conté errors, corregix i comenta (com més prop possible de l'error millor) tots aquells que trobes (2 punts)-->
+<!-- Afig un títol a la finestra del navegador que diga "Generador de Menús AW 2020 - ELTEUNOM" (1 punt) -->
+<!-- Utilitza un únic CSS per al HTML i el PHP (1 punt) -->
+<!-- Quin mètode de pas d'informació al PHP utilitzaras tenint en compte que una vegada generat el menú volem passar l'enllaç en format còdi QR per a que els clients el puguen vore, explica perquè (2 punts). D'altra banda... quin problema creus que podriem tindre al fer-ho així? ESCRIU LES RESPOSTES EN UN COMENTARI JUST BAIX D'ESTE (1punt)-->
+<head>
+    <meta charset="utf-8" />
+    <title>Generador de Menús AW 2020 - David</title>
+    <link rel="stylesheet" type="text/CSS" href="UD03_EXAMEN_solucio.css" />
+</head>
+
+<body>
+    <!-- Si obrim un h1, hem de tancar el h1-->
+    <h1>Generador de menús per al Restaurant "El bon informàtic"</h1>
+    <form action="UD03_EXAMEN_solucio.php" method="GET">
+        <!-- Genera i enllaça cada etiqueta amb el seu camp corresponent (6 punts), genera els camps del formulari seguint les instruccions/captures de l'enunciat (revisa el valor en cada camp), així mateix genera les etiquetes de capçalera de nivell 2 i paràgraf que estimes oportú i necessari (4 punts)-->
+        <h2>Informació general</h2>
+        <!-- *CAMP menu* (3 punts)-->
+        <p>
+            <label for="menu">Menú per a:</label>
+            <input type="radio" name="menu" id="desdejuni" value="desdejuni" /><label for="desdejuni">Desdejuni</label>
+            <input type="radio" name="menu" id="dinar" value="dinar" /><label for="dinar">Dinar</label>
+            <input type="radio" name="menu" id="sopar" value="sopar" /><label for="sopar">Sopar</label>
+        </p>
+        <!-- *CAMP data* (1 punt)-->
+        <p>
+            <label for="data">Data:</label><input type="date" name="data" />
+        </p>
+        <!-- *CAMP hora_inici* - *CAMP hora_fi* (2 punts)-->
+        <p>
+            <label for="hora_inici"></label>Horari: <input type="time" name="hora_inici" /><label for="hora_fi">-</label><input type="time" name="hora_fi" />
+        </p>
+        <h2>Primer plat</h2>
+        <!-- *CAMP opcio1_1* (1 punt) -->
+        <p>
+            <label for="opcio1_1">Opció 1:</label>
+            <input type="text" name="opcio1_1">
+        </p>
+        <!-- *CAMP opcio1_2* (1 punt) -->
+        <p>
+            <label for="opcio1_2">Opció 2:</label>
+            <input type="text" name="opcio1_2">
+        </p>
+        <h2>Segon plat</h2>
+        <!-- *CAMP opcio2_1* (1 punt) -->
+        <p>
+            <label for="opcio2_1">Opció 1:</label>
+            <input type="text" name="opcio2_1">
+        </p>
+        <!-- *CAMP opcio2_2* (1 punt) -->
+        <p>
+            <label for="opcio2_2">Opció 2:</label>
+            <input type="text" name="opcio2_2">
+        </p>
+        <h2>Peu del menú</h2>
+        <!-- *CAMP comentari* (1 punt) -->
+        <p>
+            <label for="comentari">Comentari al peu:</label>
+            <input type="text" name="comentari">
+        </p>
+        <!-- *CAMP preu* (3 punt) -->
+        <p>
+            <label for="preu">Preu:</label>
+            <select name="preu">
+                <option>4,5 €</option>
+                <option>12 €</option>
+                <option>21 €</option>
+            </select>
+        </p>        
+        <!-- Afig el botó d'enviament de dades (1 punt)-->
+        <input type="submit">
+    <!-- Falta el tancament del form -->
+    </form>
+<!-- Falta el tancament del body -->
+</body>
+</html>

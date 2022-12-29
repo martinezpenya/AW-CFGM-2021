@@ -1,0 +1,80 @@
+/* Selector per al cos del document (1 punt)*/
+body {
+    background-color: rgb(216, 202, 171);
+    /* Afig que la grandària de la lletra siga 15px  (1 punt)*/
+    font-size: 15px;
+}
+
+/* Selector HTML que s'aplique a la taula del PHP (1 punt)*/
+table {
+    margin: auto;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border-spacing: 0px;
+    /* Afig que l'estil de la vora siga amb guions, l'amplaria de 500px i el color de fons (172, 138, 66) (3 punts)*/
+    width: 500px;
+    background-color: rgb(172, 138, 66);
+    border-style: dashed;
+}
+
+/* Selector de classe que s'aplique a la capçalera del PHP (1 punt)*/
+.capcalera {
+    /* Afig que el color de la lletra siga (0, 60, 140) (1 punt)*/
+    color: rgb(0, 60, 140);
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 5px 5px 5px #999;
+}
+
+/* Selector per al peu del menú (id o classe?) (1 punt)*/
+.peu {
+    /* Afig que el color de fons siga (200, 160, 75) (1 punt)*/
+    background-color: rgb(200, 160, 75);
+    /* Afig que el color de la lletra siga (0, 60, 140) (1 punt)*/
+    color: rgb(2, 63, 143);
+    /* Afig que la grandària de la lletra siga 12px  (1 punt)*/
+    font-size: 12px;
+}
+
+h1 {
+    /* Afig que el color de la lletra siga (0, 60, 140) i que s'alinee al centre (2 punts)*/
+    color: rgb(0, 60, 140);
+    text-align: center;
+}
+
+
+/* Selector HTML per a les capçaleres de nivell 2 (1 punt) */
+h2 {
+    /*Afig que el color de la lletra siga (0, 60, 140) i que la variant siga Versalitas (small-caps) (2 punts)*/
+    color: rgb(0, 60, 140);
+    font-variant: small-caps;
+}
+
+/* Afig una regla CSS per a que el text de les capçaleres de nivell 2 (pero solament les que estan dins d'una cel·la) estiguen centrades. En l'HTML les h2 s'alineen a l'esquerra, en el PHP al centre (mira les captures) (2 punts) */
+td h2 {
+    text-align: center;
+}
+
+/* Afig una regla i el que siga necessari al PHP per a que el preu tinga 50px de grandaria de lletra (sols s'aplicarà al preu i a ningú més) (2 punts)*/
+#preu {
+    font-size: 50px;
+}
+
+/* Ha d'anar abans del a:hover */
+/* Afig una regla (l'ordre serà important) per a que l'enllaç de la web no canvie de color encara que s'haja visitat (2 punts)*/
+a:visited {
+    color: rgb(2, 63, 143);
+}
+
+/* Falten els selectors per a que canvien de color (al passar per damunt) el preu i l'enllaç a la web (2 punts)*/
+#preu:hover,
+a:hover {
+    color: rgb(220, 235, 255);
+}
+
+a {
+    /*Afig la regla necessaria per a que no aparega el subratllat a l'enllaç de la web (1 punt)*/
+    text-decoration: none;
+}
+
+/* TOTAL 26 punts */

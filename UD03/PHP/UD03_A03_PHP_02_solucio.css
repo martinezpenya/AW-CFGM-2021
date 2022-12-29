@@ -1,0 +1,22 @@
+/* Afig una regla per a que el fons de tot el HTML siga color royalblue i la grandària de la lletra siga 26px*/
+body {
+    background-color :royalblue;
+    font-size: 26px;
+}
+
+/* Afig una regla per a que es veja la vora (exterior i interiors) de la taula amb grandària 1px i de tipus dotted */
+table, td {
+    border: 1px;
+    border-style: dotted;
+}
+
+
+/* Afig el selector per al nom */
+#nom {
+    color: coral;
+}
+
+/* Afig el selector per als cognoms */
+#cognoms{
+    color: lime;
+}
